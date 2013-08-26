@@ -1,0 +1,8 @@
+<div class=".search-bar">
+<input type="search" ng-model="q" placeholder="filter clubs..." />
+</div>
+<div class="cards" ng-repeat="clubs in club | filter:q">
+   <div class="club_list">
+      {{clubs}}
+   </div>
+</div>

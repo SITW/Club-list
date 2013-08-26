@@ -30,29 +30,21 @@ td {
 	line-height: 200%;
 	border: 1px solid #CCC;
 }
-.select{
-	font-family: 'Alegreya SC', serif;
-	position: fixed;
-	right:5%;
-	top:20%;
-	height: 400px;
-	overflow: auto;
-	width: 100px;
-	border:1px solid black;
+.search-bar{
+   margin-top: 2%;
 }
-.select-title{
-	background-color: #fff76c;
+.club_list{
+   padding: 15px;
+   float: left;
+   margin-right: 20px;
+   margin-top: 20px;
+   border: 1px solid #cc0000;
+   background-color: #fff;
+   -moz-box-shadow: 5px 5px 5px #ccc;
+   -webkit-box-shadow: 5px 5px 5px #ccc;
+   box-shadow: 5px 5px 5px #ccc;
+   width: 250px;
 }
-.select-content{
-	text-align: left;
-}
-.select-content li{
-	list-style: none;
-}
-.table-content{
-	display: inline-block;
-}
-
 .intro {
 	margin-top: 30px;
 	line-height: 30px;

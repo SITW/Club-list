@@ -1,10 +1,10 @@
 'use strict';
 //'majorClub'
-angular.module('clubListApp', [])
+angular.module('clubListApp', ['club'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/clubList.html',
         controller: 'mainPage'
       })
       .otherwise({
