@@ -1,8 +1,17 @@
-<div class=".search-bar">
+<div class=".search_bar">
 <input type="search" ng-model="q" placeholder="filter clubs..." />
 </div>
 <div class="cards" ng-repeat="clubs in club | filter:q">
    <div class="club_list">
-      {{clubs}}
+      <span>社團編號: {{clubs["社團編號"]}}</span><br>
+      <span>主要活動場地: {{clubs["主要活動場地"]}}</span><br>
+      <span>例行活動時間: {{clubs["例行活動時間"]}}</span><br>
+      <span>社團名稱(中): {{clubs["社團名稱(中) "]}}</span><br>
+      <span>社團名稱(英): {{clubs["社團名稱(英)  "]}}</span><br>
+      <span>社團宗旨: {{clubs["社團宗旨"]}}</span><br>
+      <span>社團簡介: {{clubs["社團簡介"]}}</span><br>
+      <span>社長姓名: {{clubs["社長姓名 "]}}</span><br>
+      <span>網頁網址: <a href="{{clubs['網頁網址 ']}}">web site</a></span><br>
+      <span>輔導老師: {{clubs["輔導老師"]}}</span>
    </div>
 </div>
