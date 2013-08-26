@@ -8,7 +8,8 @@ using Angular.js + Yeoman
 - nodejs
 
 ## Usage 
-
+Run on local
+- grunt server
 
 ## Author
 
