@@ -41,7 +41,7 @@ add go to root file
 
 ## Contributors
 
-[@chilijung](http://www.github.com/chilijung)
+[@chilijung](http://www.github.com/)
 
 ## License
 
