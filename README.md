@@ -24,7 +24,7 @@ install npm packages
 ## Usage 
 
 Run on local
-- grunt server
+    $ grunt server 
 
 ## Deploy
 
